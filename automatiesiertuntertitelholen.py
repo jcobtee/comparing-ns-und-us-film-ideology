@@ -1,22 +1,3 @@
-"""
-Groq Whisper Transkription – NS Propagandafilme (Plain Text)
-=============================================================
-Voraussetzungen:
-    pip install groq internetarchive pydub
-
-ffmpeg muss installiert sein:
-    Mac:     brew install ffmpeg
-    Ubuntu:  sudo apt install ffmpeg
-    Windows: https://ffmpeg.org/download.html
-
-Groq API Key:
-    1. Kostenlos registrieren auf console.groq.com
-    2. API Key erstellen
-    3. Als Umgebungsvariable setzen:
-       Mac/Linux: export GROQ_API_KEY="dein_key_hier"
-       Windows:   set GROQ_API_KEY=dein_key_hier
-"""
-
 import os
 import math
 import time
